@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    druid:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: echoshen
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true  #驼峰属性自动映射
+
+logging:
+  level:
+    com.example.*: debug
+    org.mybatis.SQL: debug
