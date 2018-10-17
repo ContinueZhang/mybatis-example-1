@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * continue 嘻嘻哈哈
+ * continue 嘻嘻
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
